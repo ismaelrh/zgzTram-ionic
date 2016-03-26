@@ -1,0 +1,252 @@
+[
+  {
+    "id": "2102",
+    "title": "PASEO DE LOS OLVIDADOS",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "2322",
+    "title": "LA VENTANA INDISCRETA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1402",
+    "title": "GRAN VIA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1502",
+    "title": "FERNANDO EL CATOLICO - GOYA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1602",
+    "title": "PLAZA SAN FRANCISCO",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1702",
+    "title": "EMPERADOR CARLOS V",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1802",
+    "title": "ROMAREDA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1902",
+    "title": "CASABLANCA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "2002",
+    "title": "ARGUALAS",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "2422",
+    "title": "UN AMERICANO EN PARIS",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "2502",
+    "title": "MAGO DE OZ",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1401",
+    "title": "GRAN VIA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1501",
+    "title": "FERNANDO EL CATOLICO - GOYA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1601",
+    "title": "PLAZA SAN FRANCISCO",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1701",
+    "title": "EMPERADOR CARLOS V",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1801",
+    "title": "ROMAREDA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1901",
+    "title": "CASABLANCA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "2001",
+    "title": "ARGUALAS",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "2101",
+    "title": "PASEO DE LOS OLVIDADOS",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "2301",
+    "title": "LOS PAJAROS",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "2401",
+    "title": "CANTANDO BAJO LA LLUVIA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "2501",
+    "title": "MAGO DE OZ",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1311",
+    "title": "PLAZA ARAGON",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1312",
+    "title": "PLAZA ARAGON",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1301",
+    "title": "PLAZA ESPANA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1302",
+    "title": "PLAZA ESPANA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1201",
+    "title": "CESAR AUGUSTO",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1202",
+    "title": "CESAR AUGUSTO",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1101",
+    "title": "PLAZA DEL PILAR - MURALLAS",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1102",
+    "title": "PLAZA DEL PILAR - MURALLAS",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "1001",
+    "title": "LA CHIMENEA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "1002",
+    "title": "LA CHIMENEA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "901",
+    "title": "MARTINEZ SORIA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "902",
+    "title": "MARIA MONTESSORI",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "801",
+    "title": "ROSALIA DE CASTRO",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "802",
+    "title": "LEON FELIPE",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "701",
+    "title": "CLARA CAMPOAMOR",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "702",
+    "title": "PABLO NERUDA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "601",
+    "title": "LEGAZ LACAMBRA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "602",
+    "title": "ADOLFO AZNAR",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "501",
+    "title": "MARGARITA XIRGU",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "502",
+    "title": "GARCIA ABRIL",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "401",
+    "title": "CAMPUS RIO EBRO",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "402",
+    "title": "CAMPUS RIO EBRO",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "301",
+    "title": "JUSLIBOL",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "302",
+    "title": "JUSLIBOL",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "201",
+    "title": "PARQUE GOYA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "202",
+    "title": "PARQUE GOYA",
+    "direction": "Avda. Academia"
+  },
+  {
+    "id": "101",
+    "title": "AVENIDA DE LA ACADEMIA",
+    "direction": "Mago de Oz"
+  },
+  {
+    "id": "102",
+    "title": "AVENIDA DE LA ACADEMIA",
+    "direction": "Avda. Academia"
+  }
+]

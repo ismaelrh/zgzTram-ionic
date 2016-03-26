@@ -1,0 +1,64 @@
+
+<ion-view view-title="{{ctrl.title}}">
+  <ion-nav-buttons side="primary">
+    <button class="button button-icon icon" ng-class="{'ion-edit':!ctrl.editing,'ion-checkmark':ctrl.editing}" ng-click="ctrl.toggleShowMode();">
+
+
+
+    </button>
+  </ion-nav-buttons>
+  <div class="bar bar-subheader ledHeader">
+    <div ng-hide="ctrl.editing" id="wrapper" style="text-align: center">
+      <div id="ledDisplay">
+
+        <!--<canvas class="ledRow" id="stopTitle">{{main.stopData.title}}</canvas>
+        <br/>-->
+        <div class="ledRow ledStopTitle"><span>{{ctrl.selectedStop.title}}</span></div>
+        <br/>
+        <canvas class="ledRow" id="firstDestination">{{main.stopData.title}}</canvas>
+        <br/>
+        <canvas class="ledRow" id="secondDestination">{{main.stopData.title}}</canvas>
+        <br/>
+        <!--<canvas class="ledRow" id="messages">{{main.stopData.title}}</canvas>-->
+        <!--<div class="ledRow" id="messages">{{main.stopData.title}}</div>-->
+
+      </div>
+    </div>
+    <div ng-show="ctrl.editing" style="text-align:center">
+      Aquí puedes editar qué paradas se muestran en la pantalla principal.
+    </div>
+  </div>
+  <ion-content class="padding timesContent" overflow-scroll=”true”>
+
+
+    <!-- Times list-->
+    <div class="list" id="stopList" ng-if="!ctrl.editing">
+
+      <a class="item timesItem" href="#" ng-repeat="stop in ctrl.getStops() | filter:ctrl.stopFilter" ng-click="ctrl.setCurrentStop(stop)"
+         ng-class="{'active':stop.id == ctrl.selectedStop.id}" ng-if="stop.fav">
+
+        {{stop.title}}
+        <br><span style="float:left;font-size:0.8em;">Sentido: {{stop.direction}}</span>
+        <span ng-if="stop.destinos && stop.destinos.length>0" class="badge badge-assertive timesBadge">
+          {{stop.destinos[0].minutos}}  <span ng-if="stop.destinos[0].minutos!='<<'">&nbsp;min</span>
+        </span>
+        <span ng-if="!stop.destinos || stop.destinos.length==0" class="badge badge-assertive timesBadge">Sin info</span>
+      </a>
+
+    </div>
+
+    <!-- Edit favorites list -->
+    <div class="list" id="favList" ng-if="ctrl.editing">
+
+      <a class="item timesItem"  ng-class="{'disabled':!stop.fav}" href="#" ng-repeat="stop in ctrl.getStops()" ng-click="ctrl.toggleFav(stop)">
+
+        {{stop.title}}
+        <br><span style="float:left;font-size:0.8em;">Sentido: {{stop.direction}}</span>
+        <i ng-if="stop.fav" class="button button-icon icon ion-eye editEye"></i>
+        <i ng-if="!stop.fav" class="button button-icon icon ion-eye-disabled editEye disabled"></i>
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>

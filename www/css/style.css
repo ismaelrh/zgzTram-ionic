@@ -1,0 +1,65 @@
+/* Empty. Add your own CSS if you like */
+.timesBadge{
+  position: absolute;
+  right: 3px !important;
+
+
+}
+
+.editEye{
+  position: absolute;
+  right: 3px !important;
+  top: 8px !important;
+
+
+}
+
+.timesItem{
+  font-size:1em;
+  padding-bottom:8px;
+  padding-top:8px;
+
+
+}
+
+.disabled{
+  color: gray !important;
+}
+
+
+.ledRow{
+  margin-right:0px;
+  float: left;
+}
+
+
+.ledStopTitle{
+  text-align:center;
+  margin: 0 auto;
+  width:100%;
+  color:white;
+  font-size:1.2em;
+}
+#ledDisplay{
+  display: inline-block;
+  background-color:#202020;
+  border-style: solid;
+  width:auto;
+
+}
+
+
+#stopList{
+
+
+}
+
+.ledHeader{
+  height:70px;
+  padding-bottom:0px;
+}
+
+.timesContent{
+  top: 110px
+
+}
